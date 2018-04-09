@@ -4,13 +4,15 @@
 
 
 body {
-		background-color: rgba(77, 77, 255, 0.2);
-	background-image: linear-gradient(rgba(77,255,77,.2) 2px, rgba(0,0,0,0.2) 2px),
-    linear-gradient(90deg, rgba(77,255,77,.2) 2px, rgba(0,0,0,0.2) 2px),
-    linear-gradient(rgba(77,255,77,.2) 1px, rgba(0,0,0,0.2) 1px),
-    linear-gradient(90deg, rgba(77,255,77,.2) 1px, rgba(0,0,0,0.2) 1px);
+
+	background-image: linear-gradient(rgba(77,255,77,.2) 2px, rgba(50,50,50,0.5) 2px),
+	linear-gradient(90deg, rgba(77,255,77,.2) 2px, rgba(50,50,50,0.5) 2px),
+	linear-gradient(rgba(77,255,77,.2) 1px, rgba(50,50,50,0.5) 1px),
+	linear-gradient(90deg, rgba(77,255,77,.2) 1px, rgba(50,50,50,0.5) 1px);
 	background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
     background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+
+    color : #34495e;
 }
 
 .navbar {
@@ -20,22 +22,26 @@ body {
 
 .jumbotron {
   margin-bottom : 50px;
+  padding-bottom: 0px;
+  background-color: transparent;
+  color: rgba(100, 150, 150, 1);
+  text-align: center;
+}
+
+.contentbackground {
+	background-color: #BABBBB;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 4px;
 }
 
 .container {
-	width: 80%;
+	width: 100%;
 	margin: 0 auto;
 }
 
 .screensize {
 	padding-bottom: 600px;
-background-color: white;
-}
-
-.header h1 {
-	text-align: center;
-	padding: 0px 20px;
-    margin-bottom: 30px;
 }
 
 .anchor {
